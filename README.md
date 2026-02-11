@@ -2,15 +2,15 @@
 
 <img src="img/KnowHow - E-Learning Portal.png">
 
-The **E-Learning Platform** is a full-stack web application designed to deliver a complete online learning experience. It supports three distinct user roles — **Students, Instructors, and Admins** — each with tailored features and dashboards.
+The **E-Learning Platform** is a full-stack web application designed to deliver a complete online learning experience. It supports three distinct user roles for **Students, Instructors, and Admins** — each with tailored features and dashboards.
 
-Unlike many basic MERN demos, this project goes beyond CRUD operations. It implements a **role-based learning ecosystem** with secure authentication, structured data models, and media handling for lectures. It was built to demonstrate how real-world learning management systems (LMS) can be architected and deployed.
+Unlike many basic MERN demos, this project goes beyond CRUD operations. It implements a **role-based learning ecosystem** with secure authentication, structured data models, and media handling for lectures. It was built to demonstrate how real-world learning management systems LMS can be architected and deployed.
 
 ### Why this project?
 -  **Education + Technology Impact**: The demand for remote learning platforms surged after COVID-19. This project shows how a scalable LMS can be implemented using open-source technologies.  
 - **Security-first approach**: Authentication is powered by **JWT tokens** and **Passport-JWT**, ensuring that only authorized users access the right features.  
-- **End-to-End Engineering**: Covers the entire development lifecycle — database schema design, API development, role-based authorization, React/Redux frontend, and deployment readiness.  
-- **Interview Value**: Demonstrates both **system design thinking** (roles, flows, relations) and **hands-on coding skills** (MERN stack, file uploads, REST API, Redux state management).
+- **End-to-End Engineering**: Covers the entire development lifecycle — database schema design, API development, role-based authorization, React frontend, and deployment readiness.  
+- **Interview Value**: Demonstrates both **system design thinking** roles, flows and also relations and **hands-on coding skills** (MERN stack, file uploads, REST API, Redux state management).
 
 ### Key Highlights
 - **Role Separation**: Students consume content, Instructors create content, and Admins govern the system.  
