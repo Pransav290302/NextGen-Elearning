@@ -4,7 +4,7 @@
 
 The **E-Learning Platform** is a full-stack web application designed to deliver a complete online learning experience. It supports three distinct user roles for **Students, Instructors, and Admins** — each with tailored features and dashboards.
 
-Unlike many basic MERN demos, this project goes beyond CRUD operations. It implements a **role-based learning ecosystem** with secure authentication, structured data models, and media handling for lectures. It was built to demonstrate how real-world learning management systems LMS can be architected and deployed.
+Unlike many basic MERN demos, this project goes beyond CRUD operations. It implements a **role-based learning ecosystem** with secure authentication, structured data models and media handling for lectures. It was built to demonstrate how real-world learning management systems LMS can be architected and deployed.
 
 ### Why this project?
 -  **Education + Technology Impact**: The demand for remote learning platforms surged after COVID-19. This project shows how a scalable LMS can be implemented using open-source technologies.  
@@ -13,9 +13,9 @@ Unlike many basic MERN demos, this project goes beyond CRUD operations. It imple
 - **Interview Value**: Demonstrates both **system design thinking** roles, flows and also relations and **hands-on coding skills** (MERN stack, file uploads, REST API, Redux state management).
 
 ### Key Highlights
-- **Role Separation**: Students consume content, Instructors create content, and Admins govern the system.  
+- **Role Separation**: Students consume content, Instructors create content and Admins govern the system.  
 - **Flexible Lectures**: Support for both YouTube links and local video uploads.  
-- **Data Integrity**: Structured models for Users, Courses, Categories, Lectures, Enrollments, and Profiles.  
+- **Data Integrity**: Structured models for Users, Courses, Categories, Lectures, Enrollments and Profiles.  
 - **Scalable Stack**: Built with the MERN stack, making it deployable on cloud platforms like AWS, Render, or Heroku.  
 - **Dashboard-driven UX**: Each role gets personalized views to focus on their tasks.
 
@@ -81,7 +81,7 @@ Each role has its own flow, features, and permissions.
 
 ### Admin Flow
 1. **Login as Admin** → Redirected to Admin dashboard with system-wide access.  
-2. **Manage Categories** → Create, update, and delete categories.  
+2. **Manage Categories** → Create, update and delete categories.  
 3. **Manage Users** → View and manage student/instructor accounts.  
 4. **Manage Courses** → Approve, update, or remove courses.  
 5. **System Oversight** → Ensure smooth operations across platform.  
@@ -114,7 +114,7 @@ Each role has its own flow, features, and permissions.
 - **Instructors** create/manage content.  
 - **Admins** govern and oversee the entire platform.  
 
-This **clear separation of roles** ensures security, scalability, and real-world usability.
+This **clear separation of roles** ensures security, scalability and real-world usability.
 
 ### Project Flow — At a Glance
 
