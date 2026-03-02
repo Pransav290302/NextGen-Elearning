@@ -28,8 +28,8 @@ Unlike many basic MERN demos, this project goes beyond CRUD operations. It imple
 
 ## Project Flow
 
-The platform is structured around **three roles** — Student, Instructor, and Admin.  
-Each role has its own flow, features, and permissions.
+The platform is structured around **three roles** — Student, Instructor and Admin.  
+Each role has its own flow, features and permissions.
 
 ---
 
@@ -38,7 +38,7 @@ Each role has its own flow, features, and permissions.
 2. **Browse Courses & Categories** → Explore all available courses under categories.  
 3. **Enroll in Courses** → Select a course and enroll; enrollment record is created.  
 4. **Access Lectures** → Once enrolled, student can watch course lectures (via YouTube link or uploaded video).  
-5. **Profile Management** → Student can update personal info, education, and view progress.
+5. **Profile Management** → Student can update personal info, education and view progress.
 
 ---
 
@@ -83,7 +83,7 @@ Each role has its own flow, features, and permissions.
 1. **Login as Admin** → Redirected to Admin dashboard with system-wide access.  
 2. **Manage Categories** → Create, update and delete categories.  
 3. **Manage Users** → View and manage student/instructor accounts.  
-4. **Manage Courses** → Approve, update, or remove courses.  
+4. **Manage Courses** → Approve, update or remove courses.  
 5. **System Oversight** → Ensure smooth operations across platform.  
 
 ---
@@ -436,7 +436,7 @@ flowchart LR
 - **Caching**  
   - Add **Redis** for hot reads (course catalog, categories, user profile), plus cache-invalidation strategy.
 - **Edge & proxy**  
-  - Put **NGINX**/**Cloud Load Balancer** in front for routing, TLS termination, and rate limiting at the edge.
+  - Put **NGINX**/**Cloud Load Balancer** in front for routing, TLS termination and rate limiting at the edge.
 - **Observability**  
   - Centralized logs (Winston), metrics (Prometheus), dashboards (Grafana), tracing (OpenTelemetry) for bottleneck analysis.
 
